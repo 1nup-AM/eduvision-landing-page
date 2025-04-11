@@ -121,18 +121,6 @@ const DemoForm = () => {
       <div className="relative order-1 md:order-2">
 
       <img src="teach.jpg" alt="A teacher teaching student" className="rounded-xl w-full h-auto object-cover shadow-md" />
-
-       <div className="absolute bottom-4 left-4 right-4 bg-blue-100 backdrop-blur-sm rounded-lg p-4 shadow-lg z-20">
-        <div className="flex items-start space-x-3">
-            <div className="h-12 w-12 rounded-full overflow-hidden">
-                <img src="https://www.easymath.in/wp-content/uploads/2023/02/Kavita-Rana-2.png" alt="Kavita Rana" className="h-full w-full object-center object-cover"/>
-            </div>
-            <div>
-                <h4 className="font-medium text-blue-600">Kavita Rana's Demo Class</h4>
-                <p className="text-sm text-gray-700">Next Session: Today, 5:00 PM</p>
-            </div>
-        </div>
-       </div>
       </div>
     </div>
     </section>

@@ -53,7 +53,7 @@ const Courses = () => {
           Featured Courses
         </h2>
         <p className="text-gray-700 text-center max-w-3xl mx-auto mb-12">
-          Comprehensive mathematics courses and lecture videos designed to help
+          Comprehensive courses and lecture videos designed to help
           you excel in competitive exams and build a strong foundation
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl mx-auto">

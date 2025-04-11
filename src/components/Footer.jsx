@@ -7,12 +7,9 @@ const Footer = () => {
         <div className='container mx-auto px-8'>
             <div className='grid grid-cols-1 md:grid-cols-4 gap-8 text-gray-400'>
                 <div>
-                    <img src="math.png" alt="Easy Math" className='bg-gray-300 h-8 mb-4'/>
-                    <p className='font-semibold mb-4 text-white'>Easy Maths Pvt Ltd</p>
-                    <a className='flex justify-start items-center gap-2'><FaLocationArrow/>  Golden Palms, Sector 168, Noida</a>
-                    <a className='flex justify-start items-center gap-2'><FaPhone /> +91 9560313130</a>
-                    <a className='flex justify-start items-center gap-2'><FaEnvelopeSquare /> info@easymath.in</a>
-                    <a className='flex justify-start items-center gap-2'><FaLink /> www.easymath.in</a>
+                    <img src="owl.png" alt="Easy Math" className='bg-gray-300 h-14 rounded mb-4'/>
+                    <p className='font-semibold mb-4 text-white'>Edu Vision Pvt Ltd</p>
+                    <p className='max-w-xs'>Making learning easy and accessible for all students.</p>
                 </div>
 
                 <div>
@@ -28,26 +25,26 @@ const Footer = () => {
                 <div>
                     <h3 className='text-lg font-bold mb-4 text-white'>Our Programs</h3>
                     <ul className='space-y-2'>
-                        <li>CBSE Math Classes</li>
+                        <li>CBSE/ICSE Classes</li>
                         <li>JEE Preparation</li>
-                        <li>Summer Math Camp</li>
-                        <li>One-on-One Tutoring</li>
+                        <li>Summer Camps</li>
+                        <li>Olympiad Training </li>
                     </ul>
                 </div>
 
                 <div className='space-y-2'>
                     <h3 className='text-lg font-bold mb-4 text-white'>Stay Connected</h3>
-                    <p className='mb-4'>Follow us on social media for daily math tips, student success stories, and update on our platforms.</p>
+                    <p className='mb-4'>Follow us on social media for daily learning tips, student success stories, and update on our platforms.</p>
                     <div className='flex space-x-4'>
-                        <a href=""><FaYoutube /></a>
-                        <a href=""><FaInstagram /></a>
-                        <a href="https://www.facebook.com/kavitaranamathstutor" target='_blank'><FaFacebook /></a>
-                        <a href="https://www.linkedin.com/in/kavitaranamaths/" target='_blank'><FaLinkedin /></a>
+                        <a><FaYoutube /></a>
+                        <a><FaInstagram /></a>
+                        <a><FaFacebook /></a>
+                        <a ><FaLinkedin /></a>
                     </div>
                 </div>
             </div>
             <div className='border-t border-gray-800 mt-8 pt-8 text-center text-gray-400'>
-                    <p>&copy; {new Date().getFullYear()} EasyMath. All rights reserved.</p>
+                    <p>&copy; {new Date().getFullYear()} All rights reserved.</p>
                 </div>
         </div>
     </footer>

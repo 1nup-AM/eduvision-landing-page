@@ -42,9 +42,9 @@ const Navbar = () => {
         <div>
           <a href="#home" className="nav-link">
             <img
-              src="math.png"
-              alt="Easy Math"
-              className="h-10 cursor-pointer transition-transform hover:scale-105"
+              src="owl.png"
+              alt="Edu Vision"
+              className="h-14 cursor-pointer rounded transition-transform hover:scale-105 object-contain"
             />
           </a>
         </div>
