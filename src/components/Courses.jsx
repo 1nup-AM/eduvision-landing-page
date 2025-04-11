@@ -7,42 +7,42 @@ const Courses = () => {
       name: "Crash Course in Mathematical and Logical Reasoning",
       description:
         "An intensive course designed to strengthen your mathematical and logical reasoning skills, essential for various competitive exams.",
-      duration: "4 weeks",
+      // duration: "4 weeks",
     },
     { 
       img:"apt.jpeg",
       name: "Quantitative Aptitude for Competitive Examinations",
       description:
         "Comprehensive classes covering all aspects of quantitative aptitude required for numerous competitive exams.",
-      duration: "6 weeks",
+      // duration: "6 weeks",
     },
     { 
       img:"bank.jpeg",
       name: "Banking Exams Preparation (PO, SBI-PO, RBI)",
       description:
         "Specialized coaching for banking sector examinations including Bank PO, SBI-PO, and RBI exams.",
-      duration: "8 weeks",
+      // duration: "8 weeks",
     },
     { 
       img:"manage.jpeg",
       name: "Management Entrance Exam Preparation (MBA, MAT, GMAT, IIFT)",
       description:
         "Targeted classes for management entrance exams covering quantitative ability, data interpretation, logical reasoning, and verbal skills.",
-      duration: "10 weeks",
+      // duration: "10 weeks",
     },
     { 
       img:"civil.jpeg",
       name: "UPSC and Civil Services Exam Preparation",
       description:
         "Comprehensive guidance for UPSC examinations with special focus on quantitative aptitude and logical reasoning components.",
-      duration: "12 weeks",
+      // duration: "12 weeks",
     },
     { 
       img:"ssc.jpeg",
       name: "SSC and Railway Recruitment Board Exam Preparation",
       description:
         "Specialized courses for SSC Combined Preliminary exams and Railway Recruitment Board exams covering all quantitative and reasoning aspects.",
-      duration: "6 weeks",
+      // duration: "6 weeks",
     },
   ];
 
@@ -80,10 +80,10 @@ const Courses = () => {
                 <p className="text-gray-600 text-sm mb-4 h-24 group-hover:text-gray-800 transition-colors">{course.description}</p>
 
                 {/*3D Floating badge */}
-                <span
+                {/* <span
                   className="bg-blue-600 text-white font-semibold py-1.5 px-3 rounded-2xl text-xs inline-block absolute bottom-4 left-4 transition-all duration-500 group-hover:shadow-lg group-hover:translate-y-1 group-hover:scale-105">
                   {course.duration}
-                </span>
+                </span> */}
               </div>
 
               {/*hidden border animation */}
